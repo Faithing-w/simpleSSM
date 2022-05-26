@@ -25,9 +25,9 @@ public class UserServiceImpl implements UserService {
         logger.info("doSomething11" + user.getName());
     }
 
-    public void doSomething2(User user){
+    public void doSomething22(User user){
         Logger logger = Logger.getLogger("UserServiceImpl");
-        logger.info("doSomething2" + user.getName());
+        logger.info("doSomething22" + user.getName());
     }
 
     public void doSomething3(User user){
