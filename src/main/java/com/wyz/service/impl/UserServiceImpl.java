@@ -20,9 +20,9 @@ public class UserServiceImpl implements UserService {
         return userRepository.findAll();
     }
 
-    public void doSomething(User user){
+    public void doSomething11(User user){
         Logger logger = Logger.getLogger("UserServiceImpl");
-        logger.info("doSomething" + user.getName());
+        logger.info("doSomething11" + user.getName());
     }
 
     public void doSomething2(User user){
